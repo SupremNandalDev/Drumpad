@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/button_sound1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0.7"
+        android:onClick="playSound"
+        android:padding="8dp"
+        android:rotation="180"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/button_sound5"
+        app:layout_constraintEnd_toStartOf="@+id/button_sound2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/button_sound2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0.7"
+        android:onClick="playSound"
+        android:padding="8dp"
+        android:rotation="180"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/button_sound6"
+        app:layout_constraintEnd_toStartOf="@+id/button_sound3"
+        app:layout_constraintStart_toEndOf="@+id/button_sound1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/button_sound3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0.7"
+        android:onClick="playSound"
+        android:padding="8dp"
+        android:rotation="180"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/button_sound7"
+        app:layout_constraintEnd_toStartOf="@+id/button_sound4"
+        app:layout_constraintStart_toEndOf="@+id/button_sound2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/button_sound4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0.7"
+        android:onClick="playSound"
+        android:padding="8dp"
+        android:rotation="180"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/button_sound8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_sound3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/button_sound5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0.7"
+        android:onClick="playSound"
+        android:padding="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_sound6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_sound1"
+        app:srcCompat="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/button_sound6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0.7"
+        android:onClick="playSound"
+        android:padding="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_sound7"
+        app:layout_constraintStart_toEndOf="@+id/button_sound5"
+        app:layout_constraintTop_toBottomOf="@+id/button_sound2"
+        app:srcCompat="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/button_sound7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0.7"
+        android:onClick="playSound"
+        android:padding="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_sound8"
+        app:layout_constraintStart_toEndOf="@+id/button_sound6"
+        app:layout_constraintTop_toBottomOf="@+id/button_sound3"
+        app:srcCompat="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/button_sound8"
+        android:layout_width="0dp"
+        android:alpha="0.7"
+        android:layout_height="0dp"
+        android:onClick="playSound"
+        android:padding="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_sound7"
+        app:layout_constraintTop_toBottomOf="@+id/button_sound4"
+        app:srcCompat="@drawable/img" />
+</android.support.constraint.ConstraintLayout>
